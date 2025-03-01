@@ -9,16 +9,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" href="animation-css/animate.css">
     <link rel="stylesheet" href="css/style.css">
-  
+    <style>
+        header nav .container .for-color {
+            color: orange;
+            font-size: 40px;
+            font-weight: bolder;
+        }
 
+        header nav i {
+            font-size: 40px;
+            color: orange;
+        }
 
+        header nav {
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8240546218487395) 100%, rgba(2, 0, 36, 1) 100%, rgba(0, 0, 0, 1) 100%), url("../img/bg-img.jpg")
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="#">Restoran</a>
+                <i class="fa-solid fa-utensils"></i>
+                <h2 class="navbar-brand for-color" href="#">Restoran</h2>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -26,19 +40,20 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="">HOME</a>
+                            <a class="nav-link text-warning" href="">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">ABOUT</a>
+                            <a class="nav-link text-white" href="">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">SERVICE</a>
+                            <a class="nav-link text-white" href="">SERVICE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">MENU</a>
+                            <a class="nav-link text-white" href="">MENU</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 PAGES
                             </a>
                             <ul class="dropdown-menu">
@@ -46,6 +61,12 @@
                                 <li><a class="dropdown-item" href="#">Our Team</a></li>
                                 <li><a class="dropdown-item" href="#">Testimonial</a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white bg-warning" href="">BOOK A TABLE</a>
                         </li>
                     </ul>
                 </div>
@@ -61,7 +82,7 @@
                     <p class="font-heebo">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
                         diam et eos. Clita
                         erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <a class="button2 font-nunito" href="">BOOK A TABLE</a>
+                    <a class="button2 font-nunito p-3 ps-5 pe-5" href="">BOOK A TABLE</a>
                 </div>
             </div>
 

@@ -121,9 +121,11 @@ ol {
     font-family: "Pacifico", serif;
 }
 
-/* ==header css== */
-
-
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
 
 /* ==main csss== */
 
