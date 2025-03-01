@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ==general css== */
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-content-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.w-4 {
+    width: 4%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ==form css== */
+body .container {
+    height: 100vh;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.main-content {
+    margin-top: 48px;
+}
+
+form {
+    margin-left: 248px;
+}
+
+form input {
+    display: block;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 24px;
+}
+
+form input {
+    padding: 10px;
+}
+
+button {
+    display: block;
+}
+
+form input:nth-child(5) {
+    border: none;
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color: white;
+    color: blue;
+}
+
+/* ==icon css== */
+
+.using-accounts div div {
+    border: 1px solid black;
+    height: 32px;
+    width: 32px;
+    margin-top: 10px;
+}
+
+.or {
+    position: relative;
+}
+
+.or::after {
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 2px;
+    top: 29px;
+    left: 6px;
+    background-color: gray;
+}
+
+.or::before {
+    content: "";
+    position: absolute;
+    height: 133px;
+    width: 2px;
+    top: -136px;
+    left: 6px;
+    background-color: gray;
+}
+
+.using-accounts a {
+    margin-top: 10px;
+}
+
+.using-accounts a {
+    border: 1px solid black;
+}
+
+.using-accounts .first {
+    background-color: rgb(77, 77, 218);
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.using-accounts .sec {
+    background-color: rgb(35, 35, 69);
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.using-accounts {
+    margin-left: 120px;
+}

@@ -1,0 +1,102 @@
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.n-bar {
+    position: relative;
+}
+
+.game-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+/* custom css */
+
+.custom {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.images {
+    position: relative;
+}
+
+.custom-a {
+    position: absolute;
+    top: 950px;
+    left: 120px;
+}
+
+.images {
+    position: relative;
+}
+
+/* custom-2 css */
+
+.custom-2 {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.images-2 {
+    position: relative;
+}
+
+.custom-2a {
+    position: absolute;
+    top: 250px;
+    left: 10px;
+}
+
+/* custom3 css */
+
+.custom-3 {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.images-3 {
+    position: relative;
+}
+
+.custom-3a {
+    position: absolute;
+    top: 250px;
+    left: 10px;
+}
+
+/* custom-4 css */
+
+.custom-4 {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.images-4 {
+    position: relative;
+}
+
+.custom-4a{
+    position: absolute;
+    top: 250px;
+    left: 10px;
+}

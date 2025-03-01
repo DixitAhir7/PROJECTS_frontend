@@ -1,0 +1,126 @@
+/* this is much needed css styling that i couldn't apply it with bootstrap classes */
+
+body {
+    background-color: rgba(0, 0, 0, 0.811);
+}
+
+/* ==navbar css== */
+
+.navbar-nav li a {
+    color: rgb(150, 120, 120) !important;
+}
+
+.navbar-nav li a:hover {
+    color: white !important;
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+/* ==skill== */
+
+.skill {
+    margin-top: 96px;
+    font-family: cursive;
+}
+
+/* ==main css== */
+
+.main-img::before {
+    content: "";
+    position: absolute;
+    top: 70px;
+    background-color: rgba(0, 0, 0, 0.208);
+    height: 516px;
+    width: 419px;
+    z-index: -1;
+}
+
+.b-sh {
+    position: relative;
+}
+
+.main-content {
+    margin-top: 96px;
+}
+
+.main-img img {
+    width: 420px;
+}
+
+/* ==Project css== */
+
+.port-img {
+    box-shadow: rgba(158, 158, 214, 0.2) 0px 7px 29px 0px;
+    padding: 24px;
+    border-radius: 20px;
+}
+
+.port-img img {
+    height: 240px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px;
+}
+
+/* ==education css== */
+
+.education {
+    background-image: url(img/23386-1920x1080-desktop-full-hd-planet-wallpaper.jpg);
+    margin-top: 96px;
+    height: 700px;
+    opacity: 0.59;
+}
+
+.education-inner {
+    transition: 0.3s;
+}
+
+.education-inner:hover {
+    box-shadow: rgba(0, 0, 0, 0.857) 0px 5px 15px;
+    padding: 12px;
+}
+
+/* ==contact css== */
+
+.contact {
+    margin-top: 96px;
+}
+
+.for-custom {
+    border-bottom: 1px solid red;
+    width: 25%;
+    border: none;
+    transition: 0.25s;
+    color: red;
+    transition: color 1s;
+    transition-timing-function: linear;
+}
+
+.for-custom:hover {
+    border-bottom: 1px solid red;
+    color: red !important;
+}
+
+.for-custom-2 {
+    border-bottom: 1px solid red;
+    width: 25%;
+    border: none;
+    transition: 0.25s;
+}
+
+.for-custom-2:hover {
+    border-bottom: 1px solid red;
+    color: red !important;
+}
+
+/* ==modal css== */
+
+.modal-footer button {
+    font-size: 12px;
+}
+
+.modal-dialog {
+    max-width: 70% !important;
+}

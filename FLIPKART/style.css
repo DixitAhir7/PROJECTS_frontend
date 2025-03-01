@@ -1,0 +1,13 @@
+nav input {
+    width: 640px;
+}
+
+.search-icon i{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+.col1{
+    width: 15%;
+}

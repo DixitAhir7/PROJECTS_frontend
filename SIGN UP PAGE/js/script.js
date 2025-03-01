@@ -1,0 +1,1 @@
+let changeColor = document.querySelector(".for-head").innerHTML = "hello";
