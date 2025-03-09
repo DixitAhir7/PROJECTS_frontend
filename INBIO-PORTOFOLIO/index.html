@@ -14,6 +14,12 @@
         img {
             width: 100%;
         }
+
+        header {
+            position: fixed;
+            left: 0;
+            right: 0;
+        }
     </style>
 </head>
 
@@ -58,7 +64,7 @@
 
     <!-- main section for introduction -->
 
-    <main>
+    <main class="main-section" onclick="loadpage('HOME.html')">
         <div class="container">
             <div class="main-portion row">
                 <div class="col-md-6">
@@ -88,7 +94,7 @@
                 <div class="col-md-6">
                     <div class="b-sh">
                         <div class="main-img text-center">
-                            <img class="z-index rounded mt-5"
+                            <img class="z-index rounded"
                                 src="img/WhatsApp Image 2025-02-22 at 14.48.39_1119d962.jpg" height="600">
                         </div>
                     </div>
@@ -99,7 +105,7 @@
 
     <!--these are the details of skills  -->
 
-    <section class="skill">
+    <section class="skill" onclick="loadpage2('skill.html')">
         <div class="container">
             <div class="skill-heading">
                 <h2 class="mt-4 text-danger text-center fs-1">SKILLS</h2>
