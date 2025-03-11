@@ -15,3 +15,4 @@ function loadpage2(page) {
         })
         .catch(error => console.log("error loading page", error))
 }
+
