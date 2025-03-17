@@ -121,6 +121,22 @@ ol {
     font-family: "Pacifico", serif;
 }
 
+/* === header css === */
+header nav .container .for-color {
+    color: orange;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+header nav i {
+    font-size: 40px;
+    color: orange;
+}
+
+header nav {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8240546218487395) 100%, rgba(2, 0, 36, 1) 100%, rgba(0, 0, 0, 1) 100%), url("../img/bg-img.jpg")
+}
+
 header {
     position: fixed;
     left: 0;
@@ -253,8 +269,8 @@ section .container {
 .about-content h5::after {
     content: "";
     position: absolute;
-    right: 470px;
-    top: 18px;
+    right: 462px;
+    top: 14px;
     background: var(--orange);
     width: 80px;
     height: 4px;
@@ -346,7 +362,7 @@ section .container {
 .menu h5::before {
     content: "";
     position: absolute;
-    right: 67px;
+    right: 94px;
     top: 13px;
     background: var(--orange);
     width: 50px;
@@ -363,7 +379,7 @@ section .container {
     content: "";
     position: absolute;
     top: 12px;
-    left: 64px;
+    left: 94px;
     background: var(--orange);
     width: 50px;
     height: 4px;
@@ -432,6 +448,7 @@ section .container {
 }
 
 /* ==form css== */
+.form h2:first-child {margin-top: 10px;}
 
 .form a {
     background-color: var(--orange);
@@ -501,7 +518,7 @@ form {
     content: "";
     position: absolute;
     top: 12px;
-    left: 64px;
+    left: 103px;
     background: var(--orange);
     width: 50px;
     height: 4px;
@@ -534,7 +551,7 @@ form {
     content: "";
     position: absolute;
     top: 12px;
-    left: 700px;
+    left: 721px;
     background: var(--orange);
     width: 50px;
     height: 4px;
@@ -544,7 +561,7 @@ form {
     content: "";
     position: absolute;
     top: 12px;
-    left: 540px;
+    left: 513px;
     background: var(--orange);
     width: 50px;
     height: 4px;
@@ -642,7 +659,7 @@ form {
     content: "";
     position: absolute;
     top: 12px;
-    left: 685px;
+    left: 706px;
     background: var(--orange);
     width: 50px;
     height: 4px;
@@ -652,7 +669,7 @@ form {
     content: "";
     position: absolute;
     top: 12px;
-    left: 560px;
+    left: 530px;
     background: var(--orange);
     width: 50px;
     height: 4px;
