@@ -448,7 +448,9 @@ section .container {
 }
 
 /* ==form css== */
-.form h2:first-child {margin-top: 10px;}
+.form h2:first-child {
+    margin-top: 10px;
+}
 
 .form a {
     background-color: var(--orange);
