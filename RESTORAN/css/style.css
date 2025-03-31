@@ -124,7 +124,7 @@ ol {
 /* === header css === */
 header nav .container .for-color {
     color: orange;
-    font-size: 40px;
+    /* font-size: 40px; */
     font-weight: bolder;
 }
 
@@ -132,9 +132,6 @@ header nav i {
     font-size: 40px;
     color: orange;
 }
-
-
-
 
 header {
     position: fixed;

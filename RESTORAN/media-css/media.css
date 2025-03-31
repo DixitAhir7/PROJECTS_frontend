@@ -4,8 +4,6 @@
     .main-content h1 {
         font-size: 40px !important;
     }
-
-    .main-content a {}
 }
 
 @media (max-width:768px) {
@@ -17,4 +15,8 @@
         text-align: center;
     }
 
+
+    .for-color{
+        text-align: start;
+    }
 }
