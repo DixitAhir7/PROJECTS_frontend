@@ -1,6 +1,7 @@
 new WOW().init();
 
-const progressbar = document.getElementById('pBar'); 
+// progress bar
+const progressbar = document.getElementById('pBar');
 
 window.addEventListener('scroll', () => {
     const scrollTop = window.scrollY;
@@ -9,4 +10,3 @@ window.addEventListener('scroll', () => {
 
     progressbar.style.width = scrollPercent + '%';
 });
-
