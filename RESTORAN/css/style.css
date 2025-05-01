@@ -124,7 +124,6 @@ ol {
 /* === header css === */
 header nav .container .for-color {
     color: orange;
-    /* font-size: 40px; */
     font-weight: bolder;
 }
 
@@ -837,4 +836,23 @@ form button {
     position: absolute;
     bottom: 52px;
     left: 180px;
+}
+
+/* progress bar css */
+
+.progress-bar {
+    width: 100%;
+    background-color: black;
+    height: 5px;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#pBar {
+    width: 0%;
+    height: 100%;
+    background-color: orange;
 }
