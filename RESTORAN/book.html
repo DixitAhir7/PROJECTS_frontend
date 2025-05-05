@@ -11,21 +11,9 @@
 
     <!-- Custom CSS -->
     <style>
-        body {
-            background: linear-gradient(to right, #ff9a9e, #fad0c4);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-            font-family: 'Poppins', sans-serif;
-        }
-
         .btn-primary {
             background: #28a745;
             border: none;
-            padding: 12px 24px;
-            font-size: 18px;
             border-radius: 8px;
             transition: 0.3s ease-in-out;
         }
@@ -53,6 +41,10 @@
             }
         }
 
+        .btn {
+            background-color: orange;
+        }
+
         .modal-header,
         .modal-footer {
             background: #28a745;
@@ -72,7 +64,6 @@
         }
 
         .btn-close {
-            background: white;
             padding: 8px;
             border-radius: 50%;
         }
@@ -82,7 +73,7 @@
 <body>
 
     <!-- Button to Open the Modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Click To Book Table
     </button>
 
